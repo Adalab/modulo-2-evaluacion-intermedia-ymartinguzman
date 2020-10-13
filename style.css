@@ -1,0 +1,30 @@
+* {
+  padding: 5px;
+  margin-top: 8px;
+  font-family: sans-serif;
+}
+.title {
+  font-size: 50px;
+}
+.form {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.write-num {
+  width: 230px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+}
+.btn {
+  width: 70px;
+  border-radius: 6px;
+  background-color: turquoise;
+  color: white;
+  border: 1px solid turquoise;
+}
+.set {
+  font-weight: 600;
+  font-size: 16px;
+}
