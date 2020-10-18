@@ -9,11 +9,12 @@
 <body>
   <main class="main">
     <h1 class="title">Adivina el número</h1>
-    <form class="form">Introduce aquí tu número:
-      <input type="text" value="" class="write-num js__write-num"> 
-      <input type="button" value="Prueba" class="btn js__btn">
-      <input type="text" placeholder="Pista: Escribe el número y dale a Prueba" class="set js__trial">
-      <input type="text" placeholder="Número de intentos:0"
+    <form class="form" >
+      <label for="number">Introduce aquí tu número:</label>
+      <input type="text" title="Introduce un número" value="" class="write-num js__write-num" id="number"> 
+      <input type="button" title="Prueba" value="Prueba" class="btn js__btn">
+      <input type="text" title="Pista: escribe el número y dale a prueba" placeholder="Pista: Escribe el número y dale a Prueba" class="set js__trial">
+      <input type="text" title="Acumulador de intentos" placeholder="Número de intentos:0 "
       class="set js__trial-num">
     </form>
   </main>
