@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg" href="./images/bx-question-mark.svg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Truculenta:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style/main.css" />
     <title>Adivina el número</title>
   </head>
@@ -11,12 +17,13 @@
     <main class="main">
       <h1 class="title">Adivina el número</h1>
       <form class="form">
-        <label for="number">Introduce aquí tu número:</label>
+        <label for="number"></label>
         <input
           type="text"
           title="Introduce un número"
           value=""
           class="write-num js__write-num"
+          placeholder="Introduce aquí tu número:"
           id="number"
         />
         <input
@@ -40,6 +47,38 @@
         <button class="newGame js__newGame">Jugar de nuevo</button>
       </form>
     </main>
+    <footer class="footer">
+      <p class="footer__line">Coded by Yamira Martín</p>
+      <div class="footer__container">
+        <a
+          href="https://www.linkedin.com/in/yamiramartinguzman/"
+          target="_blank"
+          class="footer__icons"
+          ></a>
+            <img  
+              src="./images/linkedin.svg" 
+              alt="Icono Linkedin" 
+              title="Enlace a Linkedin de Yamira Martín"></a
+        >
+        <a 
+          href="https://github.com/ymartinguzman" 
+          target="_blank"  
+          class="footer__icons"
+          >
+              <img  
+                src="./images/github.svg" 
+                alt="Icono Github" 
+                title="Enlace a Github de Yamira Martín"></a>
+        <a
+          href="mailto:yamiramartinguzman@gmail.com" 
+          target="_blank"  
+          class="footer__icons"
+          >
+              <img 
+                src="./images/envelope.svg" 
+                alt="Icono email" title="Enlace a email de Yamira Martín"></a>
+      </div>
+    </footer>
     <script src="./js/main.js"></script>
   </body>
 </html>
