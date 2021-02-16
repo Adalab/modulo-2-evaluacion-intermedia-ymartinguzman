@@ -46,7 +46,5 @@ function newNumber() {
   magicNumber();
 }
 
-console.log(randomNum);
-
 buttonTry.addEventListener('click', Trial);
 newGame.addEventListener('click', newNumber);

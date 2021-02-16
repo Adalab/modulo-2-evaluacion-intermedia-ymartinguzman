@@ -9,6 +9,9 @@
   font-family: 'Dancing Script', cursive;
   font-weight: 100;
 }
+.main {
+  height: 100vh;
+}
 .form {
   padding: 5px;
   margin-top: 8px;
@@ -18,7 +21,7 @@
   align-items: center;
 }
 .write-num {
-  width: 160px;
+  width: 190px;
   background-color: #ecebeb;
   border-radius: 5px;
   border: 1px solid #ecebeb;
@@ -33,7 +36,7 @@
 }
 .set {
   font-size: 16px;
-  width: 230px;
+  width: 270px;
   font-weight: 200;
   background-color: #ecebeb;
   border-radius: 5px;
@@ -49,13 +52,11 @@
   text-align: center;
   margin-top: 20px;
 }
+
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
   color: #00ad9f;
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
