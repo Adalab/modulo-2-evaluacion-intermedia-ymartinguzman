@@ -9,9 +9,7 @@
   font-family: 'Dancing Script', cursive;
   font-weight: 100;
 }
-.main {
-  height: 100vh;
-}
+
 .form {
   padding: 5px;
   margin-top: 8px;
@@ -61,6 +59,9 @@
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
 }
 
 .footer__line,
