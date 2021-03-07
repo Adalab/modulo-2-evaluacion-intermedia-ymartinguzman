@@ -62,9 +62,10 @@
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
-  position: relative;
+  position: absolute;
   bottom: 0;
-  padding-top: 90px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .footer__line,
