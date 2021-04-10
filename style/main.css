@@ -3,6 +3,9 @@
   margin-top: 8px;
   background-color: #e9d4d7;
 }
+body {
+  height: 100vh;
+}
 .title {
   font-size: 50px;
   text-align: center;
@@ -10,7 +13,13 @@
   font-weight: 100;
 }
 .main {
-  height: 500px;
+  width: 100%;
+  height: 70vh;
+}
+.main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form {
@@ -55,15 +64,17 @@
 }
 
 .footer {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   color: #00ad9f;
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
   position: absolute;
-  bottom: 0;
+  bottom: -100px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
